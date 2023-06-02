@@ -77,4 +77,4 @@ It allows users to create, read, update, and delete to-do items. The application
 # Screenshots 
 | <p align="center">**To do MEAN stack**</p> | <p align="center">**To do MERN stack**</p> |
 | ------------ | ------------ |
-| <img src="https://github.com/catalyn98/MEANvsMERN-project/blob/main/To-Do-App-MEAN-Stack/To%20do%20MEAN%20stack.png" /> | <img src="https://github.com/catalyn98/MEANvsMERN-project/blob/main/To-Do-App-MERN-Stack/To%20do%20MERN%20stack.png" /> |
+| <img src="https://github.com/catalyn98/MEANvsMERN-project/blob/main/To-Do-App-MEAN-Stack/To%20do%20list%20MEAN%20stack.png" /> | <img src="https://github.com/catalyn98/MEANvsMERN-project/blob/main/To-Do-App-MERN-Stack/To%20do%20list%20MERN%20stack.png" /> |
