@@ -1,0 +1,27 @@
+<div class="container">
+  <h1>To do list</h1>
+  <div class="top">
+    <input type="text" placeholder="Add item" [(ngModel)]="text" />
+    <div class="add" (click)="addToDoItem()">
+      {{ isUpdating ? "Update" : "Add" }}
+    </div>
+  </div>
+  <div class="list">
+    <div *ngFor="let item of toDo" class="todo">
+      <div class="text">{{ item.text }}</div>
+      <div class="icons">
+        <div class="icon" (click)="updateMode(item._id, item.text)">
+          <span class="material-icons">edit</span>
+        </div>
+        <div class="icon" (click)="deleteToDoItem(item._id)">
+          <span class="material-icons">delete</span>
+        </div>
+      </div>
+    </div>
+  </div>
+  <img
+    src="https://firebasestorage.googleapis.com/v0/b/licenseproject-c2773.appspot.com/o/MEAN%20stack.png?alt=media&token=21e7ad87-1d40-45c7-be39-c94f9d3e09b1"
+    alt="logo"
+    class="image"
+  />
+</div>
